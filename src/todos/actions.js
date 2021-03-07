@@ -11,3 +11,10 @@ export const removeTodo = (text) => ({
   type: REMOVE_TODO,
   payload: { text },
 });
+
+export const COMPLETED = "COMPLETED";
+
+export const completedTodo = (text) => ({
+  type: COMPLETED,
+  payload: { text },
+});
